@@ -1,0 +1,47 @@
+env:
+  es6: true
+  node: true
+extends:
+  - plugin:@typescript-eslint/recommended
+  - plugin:jest/recommended
+  - plugin:prettier/recommended
+globals:
+  Awaited: "readonly" # available on typescript 4.5
+  NodeJS: true # bug: https://github.com/Chatie/eslint-config/issues/45
+ignorePatterns:
+  - "types.gen.ts" # auto generated file
+overrides:
+  - files:
+      - "*.js"
+    rules:
+      "@typescript-eslint/no-var-requires": "off"
+parser: "@typescript-eslint/parser"
+parserOptions:
+  sourceType: module
+  ecmaVersion: 2018
+plugins:
+  - "@typescript-eslint/eslint-plugin"
+  - jest
+  - prettier
+root: true
+rules:
+  "@typescript-eslint/explicit-function-return-type": 0
+  "@typescript-eslint/explicit-member-accessbility": 0
+  "@typescript-eslint/no-non-null-assertion": 0
+  "@typescript-eslint/no-object-literal-type-assertion": 0
+  "@typescript-eslint/no-use-before-define": 0
+  "@typescript-eslint/prefer-interface": 0
+  no-undef: 2
+  no-unused-vars: 2
+  no-var: 2
+  prettier/prettier:
+    - error
+    - arrowParens: "always"
+      trailingComma: "es5"
+    - usePrettierrc: true
+  semi:
+    - error
+    - always
+settings:
+    jest:
+        version: 26

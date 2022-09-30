@@ -1,0 +1,39 @@
+{
+	"input": {
+		"type": "TREASURY",
+		"client_name": "SpaceX",
+		"proposed_bank_name": "Great Western Bank",
+		"average_balance": 1000,
+		"services": [
+			{
+				"id": 0,
+				"name": "ACH",
+				"total_items": 2,
+				"item_fee": 555555000,
+				"proposed_item_fee": 1000
+			},
+			{
+				"id": 1,
+				"name": "Wires",
+				"total_items": 5,
+				"item_fee": 1000,
+				"proposed_item_fee": 500
+			},
+			{
+				"id": 2,
+				"name": "Lockbox",
+				"total_items": 5,
+				"item_fee": 1000,
+				"proposed_item_fee": 500
+			},
+			{
+				"id": 3,
+				"name": "Reporting",
+				"total_items": 5,
+				"item_fee": 3000,
+				"proposed_item_fee": 500
+			}
+		]
+	},
+	"month": "202111"
+}

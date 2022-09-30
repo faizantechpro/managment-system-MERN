@@ -1,0 +1,17 @@
+service: reminder
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  rateHandler:
+    handler: handler.run
+    environment:
+      apiUser: ${file(./config.js):reminderApiUser}
+      apiPassword: ${file(./config.js):reminderApiPassword}
+      apiUrl: ${file(./config.js):reminderApiUrl}
+    events:
+      - schedule: cron(0,15,30,45 * * * ? *)

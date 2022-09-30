@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test IdfAllAdditionalOwnersList Snapshot 1`] = `
+<body
+  class="modal-open"
+>
+  <div />
+  <div
+    style="position: relative; z-index: 1050; display: block;"
+    tabindex="-1"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="modal fade"
+        role="dialog"
+        style="display: block;"
+        tabindex="-1"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered"
+          role="document"
+        >
+          <div
+            class="modal-content"
+          >
+            <div
+              class="modal-header"
+            >
+              <h2
+                class="modal-title"
+              >
+                Assigned Owners
+              </h2>
+              <button
+                class="close"
+                data-testid="close-modal"
+              >
+                ×
+              </button>
+            </div>
+            <div
+              class="modal-body"
+            >
+              <div
+                class="list-group list-group-lg list-group-flush list-group-no-gutters"
+              >
+                <div
+                  class="list-group list-group-lg list-group-flush list-group-no-gutters"
+                >
+                  <div
+                    class="list-group-item"
+                    data-testid="item-12345678-abcd-efgj-a1bd-d953a4bc6cc5"
+                  >
+                    <div
+                      class="media"
+                    >
+                      <div
+                        class="avatar avatar-sm avatar-circle mr-3"
+                      >
+                        <div
+                          class="avatar avatar-sm avatar-circle avatar-soft-primary "
+                        >
+                          <span
+                            class="avatar-initials avatar-icon-font-size"
+                          >
+                            FL
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="media-body"
+                      >
+                        <h5
+                          class="mb-0"
+                        >
+                          <a
+                            class="text-block"
+                            href="/settings/profile/users/12345678-abcd-efgj-a1bd-d953a4bc6cc5"
+                          >
+                            First Name
+                             
+                            Last Name
+                          </a>
+                        </h5>
+                        <span
+                          class="text-muted font-size-sm font-weight-medium mt-1"
+                        >
+                          Title
+                        </span>
+                        <span
+                          class="d-block text-muted font-size-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-group list-group-lg list-group-flush list-group-no-gutters"
+                >
+                  <div
+                    class="list-group-item"
+                    data-testid="item-1"
+                  >
+                    <div
+                      class="media"
+                    >
+                      <div
+                        class="avatar avatar-sm avatar-circle mr-3"
+                      >
+                        <div
+                          class="avatar avatar-sm avatar-circle avatar-soft-primary "
+                        >
+                          <span
+                            class="avatar-initials avatar-icon-font-size"
+                          >
+                            OA
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        class="media-body"
+                      >
+                        <h5
+                          class="mb-0"
+                        >
+                          <a
+                            class="text-block"
+                            href="/settings/profile/users/1"
+                          >
+                            Owner 1
+                             
+                            Additional
+                          </a>
+                        </h5>
+                        <span
+                          class="text-muted font-size-sm font-weight-medium mt-1"
+                        >
+                          Title1
+                        </span>
+                        <span
+                          class="d-block text-muted font-size-sm"
+                        >
+                          ownerAdditional1@hellobuild.co
+                        </span>
+                      </div>
+                      <button
+                        class="btn btn-icon btn-sm btn-ghost-danger rounded-circle"
+                      >
+                        <i
+                          class="material-icons-outlined"
+                        >
+                          remove
+                        </i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <nav
+                  aria-label="Page navigation example"
+                  class=""
+                >
+                  <ul
+                    class="pagination"
+                  >
+                    <li
+                      class="page-item active"
+                    >
+                      <button
+                        class="page-link"
+                      >
+                        1
+                      </button>
+                    </li>
+                    <li
+                      class="page-item"
+                    >
+                      <button
+                        class="page-link"
+                      >
+                        2
+                      </button>
+                    </li>
+                    <li
+                      class="page-item"
+                    >
+                      <button
+                        class="page-link"
+                      >
+                        Next
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal-backdrop fade"
+      />
+    </div>
+  </div>
+</body>
+`;

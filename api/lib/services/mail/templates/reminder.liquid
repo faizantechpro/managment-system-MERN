@@ -1,0 +1,22 @@
+{% layout "base" %}
+{% block content %}
+
+<p>Good day {{ name }}, you have some events for today.</p>
+
+{% for activity in activities %}
+<blockquote>
+    <strong class="text-black">
+        {{ activity.title }}
+    </strong><br/> 
+    <span>
+        {{ activity.date }} 
+        <strong class="text-capitalize"> {{ activity.resourceType }}:</strong> {{ activity.resource.name }} 
+        <strong> Participants:</strong> {{ activity.attendees }}
+    </span>
+    <br/>
+    <a href="{{ activity.resourceUrl }}" class="button button-primary">View details</a>
+</blockquote><br/>
+{% endfor %}
+
+
+{% endblock %}

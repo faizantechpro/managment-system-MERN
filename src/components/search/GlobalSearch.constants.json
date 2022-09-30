@@ -1,0 +1,57 @@
+{
+  "optionsList": [
+    {
+      "name": "all",
+      "label": "All",
+      "icon": "dashboard",
+      "module":"All"
+    },
+    {
+      "name": "contacts",
+      "label": "People",
+      "icon": "people_outline",
+      "type": "contact"
+      
+    },
+    {
+      "name": "organizations",
+      "label": "Organizations",
+      "icon": "corporate_fare",
+      "type": "organization"
+    },
+    {
+      "name": "deals",
+      "label": "Deals",
+      "icon": "monetization_on",
+      "type": "deal"
+    },
+    {
+      "name": "activities",
+      "label": "Activities",
+      "icon": "event",
+      "type": "activity"
+    },
+    {
+      "name": "files",
+      "label": "Files",
+      "icon": "attachment",
+      "type": "file"
+    },
+    {
+      "name": "training",
+      "label": "Training",
+      "icon": "school",
+      "type": "training"
+    }
+  ],
+  "mainIconsList": {
+    "contact": "people_outline",
+    "deal": "monetization_on",
+    "organization": "corporate_fare",
+    "course": "school",
+    "lesson": "menu_book",
+    "category": "list_alt",
+    "activity": "calendar_today",
+    "file": "attachment"
+  }
+}

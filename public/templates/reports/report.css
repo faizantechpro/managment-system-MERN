@@ -1,0 +1,257 @@
+@page {
+  size: letter;
+  margin: 0cm;
+}
+header,
+footer,
+aside,
+nav,
+form,
+iframe,
+.menu,
+.hero,
+.lot {
+  display: none !important;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.progress.right .progress-bar {
+  float: right;
+}
+
+.left-placement {
+  position: absolute;
+  left: 100px;
+}
+.header {
+  font-weight: 900 !important;
+  padding-top: 15px;
+}
+.text {
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+}
+
+.cover-img {
+  position: relative;
+}
+
+.cover-img img {
+  position: relative;
+  bottom: 15px;
+  width: 100%;
+}
+
+.bank-logo-wide {
+  top: 120px;
+  width: 50%;
+}
+.bank-logo-wide img {
+  width: 75%;
+}
+.main-title {
+  font-size: 44px;
+  color: #285a9e;
+  margin-top: 150px;
+  width: 600px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  top: 70px;
+}
+.sub-title {
+  font-size: 35px;
+  color: #285a9e;
+  margin-top: 0px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  top: 1030px;
+}
+.date-title {
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+  top: 1070px;
+}
+.banner-treasure {
+  position: relative;
+}
+.banner-treasure-header {
+  width: 100%;
+  height: 1250px;
+  z-index: 1;
+}
+.banner-text {
+  position: absolute;
+  z-index: 5;
+  width: 425px;
+  top: 110px;
+  left: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+}
+.banner-text h4 {
+  opacity: 100%;
+  margin-bottom: 0;
+}
+.banner-text p {
+  opacity: 100%;
+}
+.header-total-estimated {
+  top: 375px;
+}
+.estimated {
+  position: absolute;
+  top: 460px;
+}
+.estimated-value {
+  font-weight: 900;
+  text-align: right;
+  right: 650px;
+}
+.estimated-text {
+  text-align: left;
+  left: 390px;
+  width: 45%;
+}
+.proposed-pricing {
+  top: 530px;
+}
+.proposed-pricing p {
+  line-height: 10px;
+}
+.comparison {
+  position: absolute;
+  top: 625px;
+  right: 100px;
+}
+
+.pb-text {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.pb-text span {
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+}
+.comparison-proposed-text {
+  padding-left: 5px;
+  color: #00539b;
+  text-align: left;
+}
+.comparison-text {
+  padding-right: 5px;
+  color: #737373;
+  text-align: right;
+}
+
+.pb-col-left {
+  padding-left: 15px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.pb-col-inner {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.pb-row-inner {
+  margin-right: -35px;
+  margin-left: -35px;
+}
+.pb-col-right {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+.pb-legend-comparison-text {
+  color: #00539b;
+  text-align: right;
+  font-weight: 900;
+  font-size: 20px;
+}
+.pb-legend-left {
+  padding-left: 15px;
+  padding-right: 35px;
+}
+.pb-legend-current-text {
+  color: #737373;
+  text-align: left;
+  font-weight: 900;
+  font-size: 20px;
+}
+.pb-legend-right {
+  padding-left: 35px;
+  padding-right: 15px;
+}
+.bg-pb-comparison {
+  color: #00539b !important;
+}
+.bg-pb-current {
+  border-bottom-color: #737373 !important;
+}
+.bank-bottom-logo {
+  position: absolute;
+  top: 1160px;
+  width: 120px !important;
+}
+
+@media print {
+  .banner-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-print-color-adjust: exact;
+  }
+  .progress {
+    position: relative;
+  }
+  .progress:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    border-bottom: 2rem solid #eeeeee;
+  }
+  .progress-bar {
+    position: absolute;
+    z-index: 1;
+    border-bottom: 2rem solid #00539b;
+  }
+  .bg-pb-comparison {
+    border-bottom-color: #00539b !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .bg-pb-current {
+    border-bottom-color: #737373 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .flex-row-reverse {
+    flex-direction: row-reverse !important;
+    -webkit-print-color-adjust: exact;
+  }
+}

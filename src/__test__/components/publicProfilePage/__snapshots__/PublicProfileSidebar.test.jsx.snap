@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicProfileSidebar snapshot 1`] = `
+<div>
+  <div
+    class="col-md-3 col-lg-2 col-fixed d-flex flex-column align-items-center text-center px-4 py-6 col"
+    style="background: rgb(12, 24, 61); min-height: 100vh;"
+  >
+    <span
+      class="material-icons-outlined text-white"
+      style="font-size: 74px;"
+    >
+      account_balance
+    </span>
+    <div
+      class="mt-4 mt-md-10"
+    >
+      <div
+        class="avatar avatar-xl avatar-circle avatar-border-dashed mr-3"
+      >
+        <div
+          class="avatar avatar-sm avatar-circle avatar-soft-primary avatar-xl"
+        >
+          <span
+            class="avatar-initials"
+          >
+            <span
+              class="material-icons-outlined avatar-icon-font-size"
+            >
+              person
+            </span>
+          </span>
+        </div>
+      </div>
+      <h3
+        class="mb-2 text-white mt-3"
+      >
+         
+        undefined undefined
+         
+      </h3>
+      <span
+        class="d-block text-gray-200 font-size-sm"
+      />
+      <button
+        class="btn btn-outline-light font-weight-medium mt-5"
+      >
+        <span
+          class="material-icons-outlined mr-1"
+        >
+          call
+        </span>
+        <span>
+          Schedule Call
+        </span>
+      </button>
+      <section
+        class="alert-position mr-5"
+      />
+      <button
+        class="btn btn-outline-light font-weight-medium mt-5"
+      >
+        <span
+          class="material-icons-outlined mr-1"
+        >
+          group
+        </span>
+        <span>
+          Your Bank Team
+        </span>
+      </button>
+      <section
+        class="alert-position mr-5"
+      />
+      <div
+        class="mt-5 text-gray-400 font-size-sm"
+      >
+        <p
+          class="font-size-md font-weight-medium mb-2"
+        >
+          For more information: 
+        </p>
+        <p
+          class="mb-1"
+        >
+           
+          undefined undefined
+           
+        </p>
+        <p
+          class="mb-1"
+        />
+        <p
+          class="mb-0 text-lowercase"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

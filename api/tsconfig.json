@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSources": true,
+    "jsx": "react",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "paths": {
+      "lib/*": ["lib/*"]
+    },
+    "resolveJsonModule": true,
+    "rootDir": "lib",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2019",
+    "useUnknownInCatchVariables": false,
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.tsx",
+    "**/schemasGenerator.ts",
+    "**/typesGenerator.ts"
+  ]
+}

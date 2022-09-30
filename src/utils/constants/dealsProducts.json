@@ -1,0 +1,116 @@
+{
+  "inputs": {
+    "products": {
+      "default": [
+        {
+          "name": "description",
+          "label": "Item",
+          "value": "",
+          "placeholder": "Item",
+          "type": "dropdown"
+        },
+        {
+          "name": "price",
+          "label": "Price",
+          "value": "0",
+          "placeholder": "Price"
+        },
+        {
+          "name": "quantity",
+          "label": "Quantity",
+          "value": "1",
+          "placeholder": "Quantity"
+        },
+        {
+          "name": "amount",
+          "label": "Amount",
+          "value": "0",
+          "placeholder": "Amount",
+          "type": "amount"
+        }
+      ]
+    },
+    "productsModal": [
+      {
+        "name": "mcc",
+        "label": "MCC",
+        "labelSize": "full",
+        "placeholder": "MCC"
+      },
+      {
+        "name": "vmc_volume",
+        "label": "Total V/MC Volume",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Volume"
+      },
+      {
+        "name": "vmc_transactions",
+        "label": "Total V/MC Transactions",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Transactions"
+      },
+      {
+        "name": "vmc_fees",
+        "label": "Total V/MC Fees",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Fees"
+      },
+      {
+        "name": "vmc_auth_attempts",
+        "label": "Total Number of Authorization Attempts",
+        "labelSize": "full",
+        "placeholder": "Total Number of Authorization Attempts"
+      },
+      {
+        "name": "proposed_pricing_model",
+        "label": "Proposed Pricing Model",
+        "labelSize": "full",
+        "placeholder": "Proposed Pricing Model"
+      },
+      {
+        "name": "proposed_pricing",
+        "label": "Proposed Pricing",
+        "labelSize": "full",
+        "placeholder": "Proposed Pricing"
+      },
+      {
+        "name": "proposed_per_item",
+        "label": "Proposed Per Item",
+        "labelSize": "full",
+        "placeholder": "Proposed Per Item"
+      }
+    ]
+  },
+  "strings": {
+    "productsModal": {
+      "title": "Add Products to Deal",
+      "input": "input"
+    },
+    "saveButton": {
+      "title": "Save"
+    },
+    "addRowButton": {
+      "title": "add new product"
+    },
+    "treasury": {}
+  },
+  "dropdowns": {
+    "dealCurrency": {
+      "id": "dealCurrency",
+      "options": [
+        {
+          "id": "usd",
+          "name": "USD Dollar (USD)"
+        },
+        {
+          "id": "euro",
+          "name": "Euro (EUR)"
+        },
+        {
+          "id": "gbp",
+          "name": "UK Pound (GBP)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+@import '../../../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../../../../node_modules/@syncfusion/ej2-react-calendars/styles/material.css';
+
+.dropdown-period {
+  min-width: 180px;
+}
+
+.dropdown-input {
+  /*background-color: #fff !important;
+  border: 1px solid !important;
+  border-color: #d6dbeb !important;
+  color: #000 !important;*/
+}
+.dropdown-input span {
+  max-width: calc(100% - 15px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+.dropdown-input:hover {
+  background-color: #f6f8fa !important;
+}
+.dropdown-input::after {
+  margin-right: 10px;
+  right: 0;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.rdrMonthName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+.rdrWeekDay {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2.667em;
+  color: rgb(132, 144, 149);
+  text-transform: uppercase;
+}
+
+.rdrDayNumber {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.rdrMonthAndYearPickers select {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.fc .fc-timegrid-col.fc-day-today {
+  background-color: rgba(9, 42, 206, 0.05) !important;
+}
+
+.input-time {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-time > span {
+  margin: 0% 0.32%;
+  text-align-last: center;
+  border-width: 1px 1px 1px 1px !important;
+  border-radius: 0.3125rem !important;
+  border: 1px solid rgb(214, 216, 218) !important;
+}
+
+.input-time > span {
+  width: 49% !important;
+  margin: 0%;
+  height: 40px;
+}
+
+.input-time input {
+  padding: 0 3% !important;
+}
+
+.btns-confirm {
+  margin: 2% 0 0 0;
+  text-align: right;
+}
+
+.text-footer {
+  margin-right: 4%;
+}
+
+/*customize the active element text color*/
+.e-timepicker.e-popup.e-custom-style .e-list-parent.e-ul .e-list-item.e-active {
+  /* csslint allow: adjoining-classes */
+  color: #333;
+  background-color: #fff;
+}
+
+.e-timepicker .e-content {
+  text-align: center;
+}
+
+/*customize the input element text selection*/
+.e-time-wrapper.e-custom-style.e-input-group::before, /* csslint allow: adjoining-classes */
+.e-time-wrapper.e-custom-style.e-input-group::after, /* csslint allow: adjoining-classes */
+.e-time-wrapper.e-custom-style.e-input-group .e-timepicker::selection {
+  /* csslint allow: adjoining-classes */
+  background: #092ace !important;
+}
+
+.e-input-group.e-error,
+.e-input-group.e-control-wrapper.e-error,
+.e-input-group.e-error:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+.e-active {
+  color: #092ace !important;
+}
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after {
+  background: #697cdc !important;
+}
+
+.e-datepicker {
+  width: 25%;
+}
+
+.e-calendar {
+  max-width: none;
+}
+
+.e-calendar .e-content {
+  width: 100% !important;
+}
+
+.e-calendar .e-content td.e-selected.e-focused-date span.e-day,
+.e-calendar .e-content td.e-today.e-selected span.e-day {
+  background: #8a9ae9 !important;
+  border: 1px solid #092ace !important;
+}
+
+.e-calendar .e-content td.e-focused-date.e-today span.e-day,
+.e-bigger.e-small .e-calendar .e-content td.e-focused-date.e-today span.e-day {
+  background: #eee;
+  border: 1px solid #092ace !important;
+  color: #000 !important;
+}
+
+.e-calendar .e-content td.e-today span.e-day,
+.e-calendar .e-content td.e-focused-date.e-today span.e-day,
+.e-bigger.e-small .e-calendar .e-content td.e-today span.e-day,
+.e-bigger.e-small .e-calendar .e-content td.e-focused-date.e-today span.e-day {
+  background: none;
+  border-radius: 50%;
+  color: #092ace !important;
+  background: none;
+  border: 1px solid #092ace !important;
+}

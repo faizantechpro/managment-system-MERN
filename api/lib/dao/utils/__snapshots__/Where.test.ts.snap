@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Where Should be able to construct entire query 1`] = `
+{
+  Symbol(or): [
+    {
+      "date_entered": {
+        Symbol(and): {
+          Symbol(gte): "2020-01-01",
+          Symbol(lte): "2020-01-02",
+        },
+      },
+      "tenant_id": "mock-tenant-id",
+      Symbol(and): [
+        {
+          Symbol(or): [
+            {
+              "first_name": {
+                Symbol(iLike): "%mock search term%",
+              },
+            },
+          ],
+        },
+        {
+          Symbol(or): [
+            {
+              "status": "mock-value",
+            },
+            {
+              "phone_home": "mock-value",
+            },
+          ],
+        },
+        {
+          Symbol(or): [
+            {
+              "created_by": "mock-user-id",
+            },
+            {
+              "assigned_user_id": "mock-user-id",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      "date_entered": {
+        Symbol(and): {
+          Symbol(gte): "2020-01-01",
+          Symbol(lte): "2020-01-02",
+        },
+      },
+      "status": "mock-public",
+      Symbol(and): [
+        {
+          Symbol(or): [
+            {
+              "first_name": {
+                Symbol(iLike): "%mock search term%",
+              },
+            },
+          ],
+        },
+        {
+          Symbol(or): [
+            {
+              "status": "mock-value",
+            },
+            {
+              "phone_home": "mock-value",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

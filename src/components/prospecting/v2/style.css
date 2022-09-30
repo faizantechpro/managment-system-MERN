@@ -1,0 +1,22 @@
+.border-2 {
+  border-style: solid;
+  border-width: 2px !important;
+}
+
+.item-filter:hover {
+  background: #f4f4f4;
+}
+
+.p-item-filter {
+  padding: 10px !important;
+}
+
+.dropdown-input:after {
+  content: none !important;
+}
+
+.menu-drop-style {
+  border-radius: 0 !important;
+  max-height: 350px;
+  overflow-y: auto;
+}

@@ -1,0 +1,22 @@
+.btn-more-less {
+  position: relative;
+  margin: 2% 0;
+}
+
+.btn-more-less hr {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+}
+
+.btn-more-less button {
+  width: 20%;
+  position: relative;
+  left: 40%;
+  top: 100%;
+}
+
+.btn-more-less span {
+  margin: 0 2%;
+}

@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test IdfAdditionalOwnersListDropdown Should render button 'View All' 1`] = `
+<body>
+  <div>
+    <div
+      class="show dropdown"
+    >
+      <button
+        aria-expanded="true"
+        aria-haspopup="true"
+        class="btn btn-icon btn-xs btn-ghost-primary section-owners-header rounded-circle  dropdown-toggle btn btn-primary"
+        type="button"
+      >
+        <span
+          class="material-icons-outlined border-0"
+        >
+          add
+        </span>
+      </button>
+      <div
+        aria-labelledby=""
+        class="basic-animation border border-1 dropdown-menu show"
+        data-popper-escaped="true"
+        data-popper-placement="bottom-start"
+        data-popper-reference-hidden="true"
+        style="position: absolute; top: 0px; left: 0px; margin: 0px; transform: translate(0px, 0px);"
+        x-placement="bottom-start"
+      >
+        <a
+          class="d-flex align-items-center dropdown-item"
+          data-testid="1"
+          href="/settings/profile/users/1"
+        >
+          <div
+            class="avatar avatar-sm avatar-circle mr-3"
+          >
+            <div
+              class="avatar avatar-sm avatar-circle avatar-soft-primary "
+            >
+              <span
+                class="avatar-initials avatar-icon-font-size"
+              >
+                OA
+              </span>
+            </div>
+          </div>
+          <h5
+            class="mb-0"
+          >
+            Owner 1
+             
+            Additional
+          </h5>
+        </a>
+        <a
+          class="d-flex align-items-center dropdown-item"
+          data-testid="2"
+          href="/settings/profile/users/2"
+        >
+          <div
+            class="avatar avatar-sm avatar-circle mr-3"
+          >
+            <div
+              class="avatar avatar-sm avatar-circle avatar-soft-primary "
+            >
+              <span
+                class="avatar-initials avatar-icon-font-size"
+              >
+                OA
+              </span>
+            </div>
+          </div>
+          <h5
+            class="mb-0"
+          >
+            Owner 2
+             
+            Additional
+          </h5>
+        </a>
+        <a
+          class="d-flex align-items-center dropdown-item"
+          data-testid="3"
+          href="/settings/profile/users/3"
+        >
+          <div
+            class="avatar avatar-sm avatar-circle mr-3"
+          >
+            <div
+              class="avatar avatar-sm avatar-circle avatar-soft-primary "
+            >
+              <span
+                class="avatar-initials avatar-icon-font-size"
+              >
+                OA
+              </span>
+            </div>
+          </div>
+          <h5
+            class="mb-0"
+          >
+            Owner 3
+             
+            Additional
+          </h5>
+        </a>
+        <a
+          class="dropdown-item"
+          href="#"
+          role="button"
+        >
+          <div>
+            View all
+            <span
+              class="material-icons-outlined"
+            >
+              chevron_right
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test IdfAdditionalOwnersListDropdown Snapshot component with dropdown menu 1`] = `
+<body>
+  <div>
+    <div
+      class="show dropdown"
+    >
+      <button
+        aria-expanded="true"
+        aria-haspopup="true"
+        class="btn btn-icon btn-xs btn-ghost-primary section-owners-header rounded-circle  dropdown-toggle btn btn-primary"
+        type="button"
+      >
+        <span
+          class="material-icons-outlined border-0"
+        >
+          add
+        </span>
+      </button>
+      <div
+        aria-labelledby=""
+        class="basic-animation border border-1 dropdown-menu show"
+        data-popper-escaped="true"
+        data-popper-placement="bottom-start"
+        data-popper-reference-hidden="true"
+        style="position: absolute; top: 0px; left: 0px; margin: 0px; transform: translate(0px, 0px);"
+        x-placement="bottom-start"
+      >
+        <a
+          class="d-flex align-items-center dropdown-item"
+          data-testid="1"
+          href="/settings/profile/users/1"
+        >
+          <div
+            class="avatar avatar-sm avatar-circle mr-3"
+          >
+            <div
+              class="avatar avatar-sm avatar-circle avatar-soft-primary "
+            >
+              <span
+                class="avatar-initials avatar-icon-font-size"
+              >
+                OA
+              </span>
+            </div>
+          </div>
+          <h5
+            class="mb-0"
+          >
+            Owner 1
+             
+            Additional
+          </h5>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test IdfAdditionalOwnersListDropdown Snapshot component without dropdown menu 1`] = `
+<body>
+  <div>
+    <div
+      class="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="btn btn-icon btn-xs btn-ghost-primary section-owners-header rounded-circle  dropdown-toggle btn btn-primary"
+        type="button"
+      >
+        <span
+          class="material-icons-outlined border-0"
+        >
+          add
+        </span>
+      </button>
+    </div>
+  </div>
+</body>
+`;

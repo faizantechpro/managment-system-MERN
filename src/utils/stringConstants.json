@@ -1,0 +1,587 @@
+{
+  "settings": {
+    "resources": {
+      "quizzes": {
+        "title": "Quizzes",
+        "deleteLabel": "Remove",
+        "saveLabel": "Save",
+        "addQuizLabel": "Add Quiz",
+        "deleteConfirmation": "Are you sure you want to delete these quizzes",
+        "acceptConfirmation": "Yes, Delete",
+        "successMessage": "Quizzes delete successfully",
+        "publishQuizLabel": "Publish Quiz",
+        "unpublishQuizLabel": "Unpublish Quiz",
+        "quizPublished": "Quiz Published",
+        "quizUnpublished": "Quiz Unpublished",
+        "titleLabel": "Title",
+        "descriptionLabel": "Description",
+        "draftStatus": "draft",
+        "publishedStatus": "published",
+        "quizCreated": "Quiz Created",
+        "quizUpdated": "Quiz Updated",
+        "errors": {
+          "quizTitleError": "Quiz title are required",
+          "questionTitle": "page title is required",
+          "optionAnswer": "You should have at least 1 answer",
+          "optionsLength": "You must to have at least 2 options and max 5 options",
+          "minimumScore": "Invalid minimum score",
+          "maxAttempts": "Invalid max attempts"
+        }
+      },
+      "categories": {
+        "title": "Categories",
+        "categoryUpdated": "Category updated successfully!",
+        "categoryCreated": "Category created successfully!",
+        "update": "Update",
+        "create": "Create",
+        "modalTitle": {
+          "update": "Update Category",
+          "create": "Add Category"
+        },
+        "unexpectedError": "Unexpected error occurred"
+      },
+      "badges": {
+        "title": "Badges",
+        "deleteLabel": "Remove",
+        "saveLabel": "Save",
+        "addBadgeLabel": "Add Badge",
+        "deleteConfirmation": "Are you sure you want to delete these badges",
+        "successMessage": "Badges delete successfully",
+        "publishBadgeLabel": "Publish Badge",
+        "unpublishBadgeLabel": "Unpublish Badge",
+        "iconLabel": "Badge Icon",
+        "nameLabel": "Badge Name",
+        "descriptionLabel": "Description",
+        "draftStatus": "draft",
+        "publishedStatus": "published",
+        "requiredFieldError": "Badge Name is required",
+        "badgeUpdatedMessage": "Badge updated",
+        "badgeCreatedMessage": "Badge create",
+        "badgePublished": "Badge Published",
+        "badgeUnpublished": "Badge Unpublished"
+      },
+      "courses": {
+        "courseLabel": "Courses",
+        "label": "Course",
+        "addCourse": "Add Course",
+        "coursesDeleteSuccess": "Courses were deleted successfully",
+        "newCourse": "New course",
+        "saveLabel": "Save",
+        "updateLabel": "Update",
+        "removeLabel": "Remove",
+        "categoryLabel": "Category",
+        "publishCourse": "Publish Course",
+        "unpublishCourse": "Unpublish Course",
+        "courseContent": "Course Contents",
+        "courseSetting": "Course Settings",
+        "selectBadge": "Select Badge",
+        "selectQuiz": "Select Quiz",
+        "selectCategory": "Select Category",
+        "searchCoursesPlaceholder": "Search Courses",
+        "searchLessonPlaceholder": "Search and add a lesson",
+        "courseCreateSuccessMessage": "The course was created successfully",
+        "courseUpdateSuccessMessage": "The course was updated successfully",
+        "labelAddLesson": "Click in the lesson item to add",
+        "coursePublishedSuccessMessage": "The course was published successfully",
+        "courseUnpublishedSuccessMessage": "The course was unpublished successfully",
+        "continue": "Continue Course",
+        "start": "Start Course",
+        "takeQuiz": "Take Quiz",
+        "courseContentLabel": "Course content",
+        "descriptionLabel": "Description",
+        "badgeLabel": "Badge",
+        "goBack": "Go back to course",
+        "removeCourseMessage": "Are you sure you want to delete this course?"
+      },
+      "questions": {
+        "title": "Questions",
+        "label": "Question",
+        "chooseAnswer": "Please choose one answer",
+        "goToCourse": "Go to course",
+        "review": "Review Course",
+        "takeAgain": "Take Quiz Again",
+        "errorSaveQuestionary": "Error save quiz",
+        "quizNoPublished": "Quiz isn`t published yet!"
+      }
+    },
+    "roles": {
+      "add": {
+        "redirecting": "Redirecting...",
+        "name": "Name",
+        "description": "Description"
+      },
+      "edit": {
+        "title": "Edit Role",
+        "add": "Add Role",
+        "name": "Name",
+        "saveRole": "Save Role",
+        "description": "Description",
+        "users": "Users",
+        "remove": "Remove",
+        "adminPermissions": "Admin Permissions",
+        "otherPermissions": "Other Permissions",
+        "usersSearchTitle": "Search for users",
+        "usersSearchPlaceholder": "Write the name or email to add it",
+        "roleUpdateSuccess": "The role has been successfully updated",
+        "roleUpdateFailed": "An error occurred while updating the role",
+        "isAdmin": "Is Admin",
+        "isOwner": "Is Owner",
+        "accounts": "Accounts",
+        "insights": "Insights",
+        "contacts": "Contacts/Organizations",
+        "deals": "Deals",
+        "view": "View",
+        "edit": "Edit",
+        "create": "Create",
+        "delete": "Delete",
+        "switch": "switch"
+      },
+      "delete": {
+        "title": "Delete",
+        "confirm": "Are you sure you want to delete this item? This change is irreversible.",
+        "aboutToDelete": "You are about to delete: ",
+        "yesDelete": "Yes, Delete",
+        "noCancel": "No, Cancel",
+        "successfullyDeleted": "The role has been successfully deleted",
+        "success": "success",
+        "failed": "failed",
+        "rolesDeleted": "The following roles has been deleted successfully: ",
+        "rolesNotRemoved": "The following roles were not deleted: ",
+        "rolesWarning": "Some roles were not deleted: ",
+        "doneButton": "OK",
+        "deleted": "Successfully deleted"
+      }
+    },
+    "groups": {
+      "edit": {
+        "title": "Edit group",
+        "name": "Group name",
+        "saveGroup": "Save Group",
+        "parentGroup": "Parent Group",
+        "users": "Users",
+        "remove": "Remove",
+        "add": "Add Group",
+        "usersSearchTitle": "Search for users",
+        "usersSearchPlaceholder": "Write the name to add it",
+        "groupUpdateSuccess": "The group has been successfully updated",
+        "groupUpdateFailed": "An error occurred while updating the group",
+        "errorGetGroups": "An error occurred while obtaining data from the group"
+      },
+      "create": {
+        "groupCreatedSuccess": "The group has been successfully created",
+        "groupCreatedFailed": "An error occurred while updating the group",
+        "errorGetGroups": "An error occurred while obtaining data from the groups",
+        "addGroupModalTitle": "Add New Group",
+        "btnAddGroup": "Create",
+        "placeholderInpNewGroup": "Field name",
+        "textGroupName": "Parent Group",
+        "textParentGroup": "Parent Group",
+        "dropTextParentGroup": "Select Parent Group"
+      },
+      "delete": {
+        "title": "Delete",
+        "deleted": "Successfully deleted"
+      },
+      "confirm": "Are you sure you want to delete this item? This change is irreversible.",
+      "aboutToDelete": "You are about to delete: ",
+      "yesDelete": "Yes, Delete",
+      "noCancel": "No, Cancel",
+      "success": "success",
+      "failed": "failed",
+      "deleted": "Successfully deleted",
+      "doneButton": "OK",
+      "hasBeenDeleted": "The following groups has been deleted successfully: ",
+      "notRemoved": "The following groups were not deleted: "
+    },
+    "users": {
+      "filters": {
+        "roles": {
+          "placeholder": "Type to find a role"
+        },
+        "alphanumeric": {
+          "error": "Only alphanumeric characters are allowed"
+        },
+        "search": "search",
+        "All": "All"
+      },
+      "delete": {
+        "confirm": "Are you sure you want to suspend this user? If you want then you can reactivate it.",
+        "aboutToDelete": "You are about to suspend: ",
+        "yesDelete": "Yes, Suspend",
+        "noCancel": "No, Cancel",
+        "success": "success",
+        "failed": "failed",
+        "deleted": "Successfully suspended",
+        "doneButton": "OK",
+        "hasBeenDeleted": "The following users has been suspended successfully: ",
+        "notRemoved": "The following users were not suspended: "
+      }
+    },
+    "security": {
+      "changePassword": "Change your password",
+      "changePasswordDescription": "Keep your data safe by creating a password that is complex and long enough. It should be easy for you to remember but hard for others to guess.",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "successMessage": "Info updated successfully",
+      "errorMessage": "Server error!! try again or contact to support",
+      "passwordDontMatch": "The new password and confirmation passwor do not match.",
+      "save": "Save changes",
+      "loading": "Loading...",
+      "passwordLength": "passwordLength",
+      "uppercase": "uppercase",
+      "lowercase": "lowercase",
+      "number": "number",
+      "specialCharacter": "specialCharacter",
+      "labelPasswordAutomatically": "Automatically generate a password",
+      "textPasswordAutomatically": "You'll be able to view and copy the password in the next step.",
+      "labelCheckboxManualPassword": "Create password",
+      "placeholderNewPassword": "New Password",
+      "btnResetPassword": "Reset Password",
+      "btnResetPasswordModal": "Reset",
+      "textPassword": "Password"
+    },
+    "notifications": {
+      "successMessage": "The notification has been successfully updated",
+      "errorMessage": "An error occurred while updating the notification",
+      "emailUpdateTitle": "Emails Uptade",
+      "emailUpdateDescription": "Get notification to your email. These settings do not affect getting notifications inside Identifee.",
+      "emailsAboutTitle": "Send emails about",
+      "remindersTitle": "Activity reminder emails",
+      "remindersDescription": "Get reminders for upcoming activities to your email.",
+      "remindersAboutTitle": "Remind me about",
+      "aditionalOptionsTitle": "Aditional Options",
+      "deactivateButton": "Deactivate all",
+      "saveButton": "Save Changes"
+    },
+    "products": {
+      "createMessage": "The product was created successfully",
+      "notCreateMessage": "The product was not created successfully",
+      "updateMessage": "The product was updated successfully",
+      "notUpdateMessage": "The product was not updated successfully",
+      "messageModalDelete": "Are you sure you want to delete this item? this change is irreversible.",
+      "notDeleteAllProductMessage": "Some products were not removed, you must first remove it from the deals.",
+      "messageRemoveDone": "All selected products were removed successfully."
+    }
+  },
+  "deals": {
+    "organizations": {
+      "profile": {
+        "profileForm": {
+          "updateError": "Error updating organization",
+          "updated": "Organization updated successfully!"
+        },
+        "overview": {
+          "fieldType": "Field type",
+          "labelAddNewCustomField": "Add New Custom Fields",
+          "validateDataMessage": "The data is wrong",
+          "messageFieldExistAlready": "The custom field name exist already",
+          "successRemoveCustomField": "The field was removed successfully",
+          "failedRemoveCustomField": "The field not was removed successfully",
+          "messageSaveCustomField": "The fields was saved successfully"
+        },
+        "contactsTitle": "Contacts",
+        "noContacts": "None",
+        "relatedOrganizationTitle": "Related Organization",
+        "customerTitle": "Customer",
+        "deleteButton": "Yes, Delete",
+        "deleteConfirmation": "Are you sure you want to delete this organization?",
+        "successfullyDeleted": "The organization has been successfully deleted",
+        "contactDeleteConfirmation": "Are you sure you want to remove this contact?",
+        "messageSaveSuccess": "Contact was saved successfully",
+        "messageSaveFailed": "Contact was not saved successfully",
+        "messageSuccessSaveRelation":"The relation was saved successfully",
+        "messageFailedSaveRelation":"The relation was not saved successfully"
+      },
+      "deleteConfirmation": "Are you sure you want to delete this owner?",
+      "acceptConfirmation": "Yes, Delete",
+      "placeholderDropdownLabels": "Choose Label",
+      "buttonAddLabels": "Add New Label",
+      "delete": {
+        "confirm": "Are you sure you want to delete this organizations? This change is irreversible.",
+        "success": "success",
+        "failed": "failed",
+        "warning": "Some contacts were not deleted: ",
+        "hasBeenDeleted": "The following organizations has been deleted successfully: ",
+        "notRemoved": "The following organizations were not deleted: ",
+        "deleted": "Successfully deleted",
+        "doneButton": "OK",
+        "aboutToDelete": "You are about to delete: ",
+        "yesDelete": "Yes, Delete",
+        "noCancel": "No, Cancel"
+      }
+    },
+    "contacts": {
+      "profile": {
+        "activities": {
+          "buttons": [
+            {
+              "name": "Call",
+              "type": "callActivity",
+              "icon": "call"
+            },
+            {
+              "name": "Meeting",
+              "type": "meetingActivity",
+              "icon": "groups"
+            },
+            {
+              "name": "Task",
+              "type": "taskActivity",
+              "icon": "schedule"
+            },
+            {
+              "name": "Deadline",
+              "type": "deadlineActivity",
+              "icon": "flag"
+            },
+            {
+              "name": "Email",
+              "type": "emailActivity",
+              "icon": "email"
+            },
+            {
+              "name": "Lunch",
+              "type": "lunchActivity",
+              "icon": "restaurant_menu"
+            }
+          ],
+          "leads": {
+            "options": [{ "name": "Wolfs corp deal" }],
+            "default": "Select a lead"
+          },
+          "freeBusy": {
+            "options": [{ "name": "Busy" }, { "name": "Free" }]
+          }
+        },
+        "contactUpdated": "Contact updated",
+        "errorContactUpdated": "Error updating contact",
+        "organizationTitle": "Organization",
+        "overviewTitle": "Details",
+        "noLinkedOrganization": "No organization is linked to this contact.",
+        "linkOrganizationButton": "Link to an organization",
+        "nameLabel": "Name",
+        "phoneLabel":"Phone",
+        "statusLabel": "Label",
+        "addressLabel": "Address",
+        "industryLabel": "Industry",
+        "websiteLabel":"Website",
+        "sicCodeLabel": "SIC code",
+        "naicsCodeLabel": "NAICS code",
+        "cif": "CIF",
+        "branch": "Branch",
+        "totalRevenue": "Annual Revenue",
+        "employeesLabel": "Employees",
+        "ytdRevenue": {
+          "merchant": "YTD Revenue: Merchant",
+          "treasury": "YTD Revenue: Treasury",
+          "businesscard": "YTD Revenue: Business card"
+        },
+        "notesLabel": "Notes",
+        "activityLabel": "Activity",
+        "filesLabel": "Files",
+        "noteError": "Error adding note",
+        "organizationContactDealSelectMsg": "Please select contact, organization or deal",
+        "unathorizedError": "You dont have permission to do this action",
+        "noteAdded": "Note added",
+        "noteUpdated": "Note updated",
+        "activityAdded": "Activity added",
+        "activityUpdated": "Activity updated",
+        "activityError": "Error adding activity",
+        "fileAdded": "File added",
+        "cancel": "Cancel",
+        "save": "Save",
+        "submit": "Submit",
+        "update": "Update",
+        "deleteButton": "Yes, Delete",
+        "deleteConfirmation": "Are you sure you want to remove this contact?",
+        "successfullyDeleted": "The contact has been successfully deleted",
+        "errorDeleted": "You don't have permission to remove this contact",
+        "dropdown": {
+          "delete": "Delete",
+          "merge": "Merge",
+          "manageSidebarSections": "Manage sidebar sections"
+        },
+        "fileUploaded": "File Uploaded",
+        "fileUploadError": "Error uploading File",
+        "filesUploaded": "files uploaded",
+        "getFileError": "Error getting files",
+        "viewAllLabel": "View all",
+        "tooltipTagInput": "Email invalid",
+        "withoutPlanned": "No activities planned",
+        "planned": "Planned",
+        "today": "Today",
+        "overdue": "Overdue",
+        "scheduleActivity": "Schedule an activity",
+        "updatedActivity": "Updated Activity",
+        "errorUpdatedActivity": "Error updating activity",
+        "placeholderDropdownLabels": "Choose Label",
+        "emailsNotAllowed": "Emails not allowed"
+      },
+      "delete": {
+        "confirm": "Are you sure you want to delete this contacts? This change is irreversible.",
+        "success": "success",
+        "failed": "failed",
+        "warning": "Some contacts were not deleted: ",
+        "hasBeenDeleted": "The following contacts has been deleted successfully: ",
+        "notRemoved": "The following contacts were not deleted: ",
+        "deleted": "Successfully deleted",
+        "doneButton": "OK",
+        "aboutToDelete": "You are about to delete: ",
+        "yesDelete": "Yes, Delete",
+        "noCancel": "No, Cancel"
+      }
+    },
+    "pipeline": {
+      "dealsLabel": "deals",
+      "dealFilterTitle": "Filter deals",
+      "dealSearchPlaceholder": "Search deals",
+      "ownerLabel": "Owner",
+      "errorLoadDeals": "Error in obtaining deals"
+    },
+    "prospecting": {
+      "searchCriteriaLabel": "Search Criteria",
+      "applyFilterCriteriaLabel": "Apply Filter Criteria",
+      "clearAllCriteriaLabel": "Clear All",
+      "searchLabel": "Search Prospects",
+      "importLabel": "Import",
+      "importContactMessage": "Are you sure you want to import this prospect?",
+      "importOrganizationMessage": "Are you sure you want to import this company?",
+      "organizationExist": "The prospect was imported already",
+      "messageFilter": "Select your criteria from the left to get started"
+    }
+  },
+  "deleteConfirmationModal": {
+    "deleteOrganizationTitle": "Are you sure you want to delete this organization? This organization contains:",
+    "deleteContactTitle": "Are you sure you want to delete this contact? This Contact contains:",
+    "confirmationMessage": "Are you sure you want to delete these items? This change is irreversible.",
+    "confirmationResultFailed": "Some were not deleted, you must first delete the lessons from those categories",
+    "confirmationResultSuccess": "The following categories were removed successfully",
+    "aboutToDelete": "You are about to delete:",
+    "deleteButton": "Yes, Delete",
+    "cancelButton": "No, Cancel",
+    "details": "Details:",
+    "okButton": "Ok"
+  },
+  "login": {
+    "invalidCodeMessage": "Invalid code, please try again or request new code."
+  },
+  "modals": {
+    "uploadFileModal": {
+      "title": "Upload Files",
+      "dragAndDrop": "Drag a file here",
+      "browseFiles": "Browse",
+      "profile": {
+        "getFileError": "Error getting files",
+        "viewAllLabel": "View all"
+      }
+    },
+    "modalLabels": {
+      "labelError": "Error creating new label",
+      "labelAdded": "Label created",
+      "buttonSave": "Save",
+      "placeholderInput": "Label Name",
+      "errorUpdateLabel": "An error ocurred while updated the label",
+      "errorRemoveLabel": "An error ocurred while removed the label",
+      "updateLabel": "Label updated",
+      "removeLabel": "Label removed"
+    }
+  },
+  "global": {
+    "avatar": {
+      "uploadError": "Error uploading avatar",
+      "uploadSuccess": "Avatar upload successfully",
+      "removedSuccess": "Avatar removed successfully",
+      "uploadLabel": "Upload Logo"
+    },
+    "commons": {
+      "add": "Add",
+      "save": "Save",
+      "remove": "Remove",
+      "clear": "Clear",
+      "addMore": "Add More",
+      "edit": "edit",
+      "change": "Change"
+    }
+  },
+  "components": {
+    "DropdownSearchSelect": {
+      "All": "All"
+    },
+    "DropdownSelect": {
+      "All": "All",
+      "default": "Select a lead"
+    }
+  },
+  "feed": {
+    "comments": {
+      "addCommentButton": "Add comment",
+      "commentsLabel": "comments",
+      "placeholder": "Start typing to leave a comment...",
+      "seeMoreComments": "See more comments",
+      "messageDelete": "This message was deleted",
+      "messageWarningModalDelete": "Are you sure you want to delete this comment?"
+    },
+    "deletion": {
+      "noAvailableLabel": "No available"
+    },
+    "files": {
+      "noAvailableLabel": "File not available"
+    },
+    "updateType": {
+      "deal_type": "Status",
+      "amount": "Value",
+      "email_home": "Email (Home)",
+      "email_work": "Email (Work)",
+      "email_other": "Email (Other)",
+      "phone_home": "Phone (Home)",
+      "phone_work": "Phone (Work)",
+      "phone_mobile": "Phone (Mobile)",
+      "phone_other": "Phone (Other)",
+      "name": "Title"
+    },
+    "report": {
+      "downloadButton": "Download Report",
+      "updatedLabel": "Report updated",
+      "newLabel": "New Report"
+    }
+  },
+  "followers": {
+    "followers": "Followers",
+    "following": "Following",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "followingError": "Error following",
+    "unfollowingError": "Error unfollowing",
+    "followingSuccess": "Successfully following",
+    "unfollowingSuccess": "Successfully unfollowing",
+    "viewAll": "View all",
+    "stopFollowing": "Stop following",
+    "startFollowing": "Start following"
+  },
+  "users": {
+    "inputs": {
+      "fullName": {
+        "title": "Full Name",
+        "placeholderName": "Your first name",
+        "placeholderLastName": "Your last name"
+      },
+      "title": {
+        "title": "Title",
+        "placeholder": "Title"
+      },
+      "phoneNumber": {
+        "title": "Phone Number",
+        "placeholder": "Phone Number"
+      },
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      },
+      "timezone": {
+        "title": "Timezone",
+        "placeholder": "Timezone"
+      }
+    }
+  }
+}

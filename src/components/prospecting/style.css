@@ -1,0 +1,42 @@
+.flex-base {
+  flex: 1 !important;
+}
+
+.move-up-2 {
+  top: -13px !important;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+/*We give the list the initial dimension of the list button*/
+.list-transition-enter {
+  height: 0px;
+  transition: height 250ms ease-in 0s;
+  /* transform: translateY(-100px); */
+}
+
+/* This is where we can add the transition*/
+.list-transition-enter-active {
+  height: auto;
+  overflow: visible;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.list-transition-exit {
+  height: auto;
+  transition: height 250ms ease-in 0s;
+  /* transform: translateY(0px); */
+}
+
+/* fires as element leaves the DOM*/
+.list-transition-exit-active {
+  height: 0px;
+  overflow: hidden;
+}
+
+.size-textarea-filter {
+  height: 150px !important;
+  width: 100% !important;
+}

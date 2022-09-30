@@ -1,0 +1,9 @@
+.check-location-conference {
+  margin-top: 2%;
+}
+
+.check-location-conference .form-check {
+  width: 15%;
+  display: inline-block;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,113 @@
+{
+  "permissionList": [
+    {
+      "name": "accounts",
+      "label": "Accounts",
+      "group": [
+        {
+          "name": "view",
+          "label": "View",
+          "permissions": [
+            { "label": "View", "collection": "accounts", "action": "view" }
+          ]
+        },
+        {
+          "name": "create",
+          "label": "Create",
+          "permissions": [
+            { "label": "Create", "collection": "accounts", "action": "create" }
+          ]
+        },
+        {
+          "name": "edit",
+          "label": "Edit",
+          "permissions": [
+            { "label": "Edit", "collection": "accounts", "action": "edit" }
+          ]
+        },
+        {
+          "name": "delete",
+          "label": "Delete",
+          "permissions": [
+            { "label": "Delete", "collection": "accounts", "action": "delete" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "insights",
+      "label": "Insights",
+      "group": [
+        {
+          "name": "view",
+          "label": "View",
+          "permissions": [{ "collection": "insights", "action": "view" }]
+        }
+      ]
+    },
+    {
+      "name": "contacts",
+      "label": "Contacts/Organizations",
+      "group": [
+        {
+          "name": "view",
+          "label": "View",
+          "permissions": [
+            { "label": "View", "collection": "contacts", "action": "view" },
+            { "label": "View", "collection": "deals", "action": "view" }
+          ]
+        },
+        {
+          "name": "create",
+          "label": "Create",
+          "permissions": [
+            { "label": "Create", "collection": "contacts", "action": "create" }
+          ]
+        },
+        {
+          "name": "edit",
+          "label": "Edit",
+          "permissions": [
+            { "label": "Edit", "collection": "contacts", "action": "edit" }
+          ]
+        },
+        {
+          "name": "delete",
+          "label": "Delete",
+          "permissions": [
+            { "label": "Delete", "collection": "contacts", "action": "delete" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deals",
+      "label": "Deals",
+      "group": [
+        {
+          "name": "view",
+          "label": "View",
+          "permissions": [
+            { "label": "View", "collection": "deals", "action": "view" },
+            { "label": "View", "collection": "contacts", "action": "view" }
+          ]
+        },
+        {
+          "name": "create",
+          "label": "Create",
+          "permissions": [
+            { "label": "Create", "collection": "deals", "action": "create" },
+            { "label": "View", "collection": "contacts", "action": "view" }
+          ]
+        },
+        {
+          "name": "delete",
+          "label": "Delete",
+          "permissions": [
+            { "label": "Delete", "collection": "deals", "action": "delete" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "inputs": {
+    "treasury": {
+      "main": [
+        {
+          "name": "date",
+          "label": "Date",
+          "type": "date",
+          "value": "",
+          "placeholder": "MM/DD"
+        },
+        {
+          "name": "existing_avr_balance",
+          "label": "Existing Monthly Average Balance",
+          "value": "0.001",
+          "placeholder": "Existing Monthly Average Balance"
+        }
+      ],
+      "cols": [
+        {
+          "name": "description",
+          "label": "Description",
+          "value": "",
+          "placeholder": "Description"
+        },
+        {
+          "name": "total_items",
+          "label": "Total Monthly Items",
+          "value": "1",
+          "placeholder": "Total Monthly Items"
+        },
+        {
+          "name": "existing_fee",
+          "label": "Existing Fee",
+          "value": "0.0",
+          "placeholder": "Existing"
+        },
+        {
+          "name": "proposed_fee",
+          "label": "Proposed Fee",
+          "value": "0.0",
+          "placeholder": "Proposed"
+        }
+      ],
+      "default": [
+        {
+          "name": "description_",
+          "label": "Description",
+          "value": "",
+          "placeholder": "Description"
+        },
+        {
+          "name": "total_items_",
+          "label": "Total Monthly Items",
+          "value": "1",
+          "placeholder": "Total Monthly Items"
+        },
+        {
+          "name": "existing_fee_",
+          "label": "Existing Fee",
+          "value": "0.0",
+          "placeholder": "Existing"
+        },
+        {
+          "name": "proposed_fee_",
+          "label": "Proposed Fee",
+          "value": "0.0",
+          "placeholder": "Proposed"
+        }
+      ]
+    },
+    "reportModal": [
+      {
+        "name": "mcc",
+        "label": "MCC",
+        "labelSize": "full",
+        "placeholder": "MCC"
+      },
+      {
+        "name": "vmc_volume",
+        "label": "Total V/MC Volume",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Volume"
+      },
+      {
+        "name": "vmc_transactions",
+        "label": "Total V/MC Transactions",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Transactions"
+      },
+      {
+        "name": "vmc_fees",
+        "label": "Total V/MC Fees",
+        "labelSize": "full",
+        "placeholder": "Total V/MC Fees"
+      },
+      {
+        "name": "vmc_auth_attempts",
+        "label": "Total Number of Authorization Attempts",
+        "labelSize": "full",
+        "placeholder": "Total Number of Authorization Attempts"
+      },
+      {
+        "name": "proposed_pricing_model",
+        "label": "Proposed Pricing Model",
+        "labelSize": "full",
+        "placeholder": "Proposed Pricing Model"
+      },
+      {
+        "name": "proposed_pricing",
+        "label": "Proposed Pricing",
+        "labelSize": "full",
+        "placeholder": "Proposed Pricing"
+      },
+      {
+        "name": "proposed_per_item",
+        "label": "Proposed Per Item",
+        "labelSize": "full",
+        "placeholder": "Proposed Per Item"
+      }
+    ]
+  },
+  "strings": {
+    "reportModal": {
+      "title": "Generate Report",
+      "input": "input"
+    },
+    "reportButton": {
+      "title": "Generate Report"
+    },
+    "treasury": {},
+    "errors": {
+      "dateReport": "The date of report is required",
+      "existingAverage": "The Existing Average Balance is required",
+      "existingEarnings": "The Existing Earnings Credit Rate is required",
+      "proposedEarnings": "The Proposed Earnings Credit Rate is required"
+    },
+    "colors": { "success": "success", "danger": "danger" }
+  },
+  "dropdowns": {
+    "period": {
+      "id": "dwDRPeriod",
+      "options": [
+        {
+          "id": "last_mm",
+          "name": "Last Month"
+        },
+        {
+          "id": "last_90_dd",
+          "name": "Last 90 Days"
+        },
+        {
+          "id": "last_6_mm",
+          "name": "Last 6 Months"
+        },
+        {
+          "id": "yy_to_date",
+          "name": "Year to Date"
+        },
+        {
+          "id": "custom",
+          "name": "Custom"
+        }
+      ]
+    }
+  },
+  "tabs": {
+    "toolbarModal": [
+      { "name": "custom", "label": "Custom Report"}
+    ],
+    "toolbar": [
+      { "name": "custom", "label": "Custom Report"}
+    ],
+    "share": [
+      { "name": "email", "label": "Email" },
+      { "name": "getLink", "label": "Get Link" }
+    ]
+  }
+}

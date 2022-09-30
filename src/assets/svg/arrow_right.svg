@@ -1,0 +1,7 @@
+<svg width="10" height="55" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path class="arrow__right" fill="#ffffff" d="M0 0h16v56H0z"/>
+        <path class="arrow__border" fill="#E5E5E5" d="M1 0l8 28-8 28H0V0z"/>
+        <path class="arrow__left" fill="#ffffff" d="M0 1l8 27-8 27z"/>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+.editor {
+  box-sizing: border-box;
+  border: 1px solid #e7eaf3;
+  cursor: text;
+  padding: 16px;
+  margin-bottom: 0;
+  color: #1e2022;
+  background-color: #fff;
+  outline: 0;
+}
+
+.editor:first-child:focus-within,.editor:first-child:focus-visible {
+  border: 1px solid rgba(9, 42, 206, 0.4);
+  box-shadow: 0 0 10px rgb(9 42 206 / 10%);
+}
+
+.comment {
+  box-sizing: border-box;
+  border: 1px solid rgba(9, 42, 206, 0.4);
+  cursor: text;
+  padding: 16px;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 10px rgb(9 42 206 / 10%);
+  color: #1e2022;
+  background-color: #fff;
+  outline: 0;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 70px;
+}

@@ -1,0 +1,9 @@
+[
+  { "name": "main", "primaryColor": "#111B51", "secondaryColor": "#092ACE" },
+  { "name": "gray", "primaryColor": "#293136", "secondaryColor": "#5F717D" },
+  { "name": "purple", "primaryColor": "#3A1B6F", "secondaryColor": "#8859D7" },
+  { "name": "darkAqua", "primaryColor": "#00697B", "secondaryColor": "#00B8D9" },
+  { "name": "green", "primaryColor": "#1D672F", "secondaryColor": "#30A84D" },
+  { "name": "red", "primaryColor": "#A41D23", "secondaryColor": "#DF4C53" },
+  { "name": "orange", "primaryColor": "#C34F00", "secondaryColor": "#FF822D" }
+]

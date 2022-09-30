@@ -1,0 +1,32 @@
+export const BADGE_ICONS = [
+  { name: 'workingCapitalBronze', value: 'Working Capital / Bronze' },
+  { name: 'workingCapitalSilver', value: 'Working Capital / Silver' },
+  { name: 'workingCapitalGold', value: 'Working Capital / Gold' },
+  { name: 'achBronze', value: 'ACH / Bronze' },
+  { name: 'achSilver', value: 'ACH / Silver' },
+  { name: 'achGold', value: 'ACH / Gold' },
+  { name: 'merchantBronze', value: 'Merchant / Bronze' },
+  { name: 'merchantSilver', value: 'Merchant / Silver' },
+  { name: 'merchantGold', value: 'Merchant / Gold' },
+  { name: 'businessCardsBronze', value: 'Business Cards / Bronze' },
+  { name: 'businessCardsSilver', value: 'Business Cards / Silver' },
+  { name: 'businessCardsGold', value: 'Business Cards / Gold' },
+  { name: 'lockboxBronze', value: 'Lockbox / Bronze' },
+  { name: 'lockboxSilver', value: 'Lockbox / Silver' },
+  { name: 'lockboxGold', value: 'Lockbox / Gold' },
+  { name: 'hrmBronze', value: 'HRM / Bronze' },
+  { name: 'hrmSilver', value: 'HRM / Silver' },
+  { name: 'hrmGold', value: 'HRM / Gold' },
+  { name: 'wiresBronze', value: 'Wires / Bronze' },
+  { name: 'wiresSilver', value: 'Wires / Silver' },
+  { name: 'wiresGold', value: 'Wires / Gold' },
+  { name: 'salesStrategyBronze', value: 'Sales Strategy / Bronze' },
+  { name: 'salesStrategySilver', value: 'Sales Strategy / Silver' },
+  { name: 'salesStrategyGold', value: 'Sales Strategy / Gold' },
+];
+
+export const DEFAULT_FORM_VALUES = {
+  name: '',
+  description: '',
+  badge_url: 'workingCapitalBronze',
+};

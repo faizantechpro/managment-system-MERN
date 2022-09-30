@@ -1,0 +1,14 @@
+{% layout "base" %}
+{% block content %}
+
+<p>You are now following {{ resource.name }}.</p>
+
+<blockquote>
+<strong class="text-black">{{ resource.primaryOwner.name }}: Primary Owner</strong><br/>
+<a href="{{ resource.url }}">{{ resource.name }}</a>
+</blockquote>
+
+<br/>
+<a href="{{ resource.url }}" class="button button-primary button-large">Go to {{ resource.type | capitalize }}</a>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+.box-answers {
+  width: 115px !important;
+  height: auto !important;
+  background-color: #eaeaea;
+}
+
+.line-paragraph {
+  height: 0 !important;
+  border: solid #677788 3px;
+  width: 60% !important;
+}
+
+.size-badge {
+  width: 126px;
+  height: 126px;
+}
+
+.w-600 {
+  width: 600px !important;
+}
+
+.padding-r-12 {
+  padding-right: 12px !important;
+}
+
+.minimum-letter {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #293136;
+  margin-top: 10px;
+}

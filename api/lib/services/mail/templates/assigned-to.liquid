@@ -1,0 +1,14 @@
+{% layout "base" %}
+{% block content %}
+
+<p>You were assigned to a new {{ type }}.</p>
+
+<blockquote>
+<strong class="text-black">New {{ type }}:</strong><br/>
+<a href="{{ url }}">{{ name }}</a>
+</blockquote>
+
+<br/>
+<a href="{{ url }}" class="button button-primary button-large">Go to {{ type }}</a>
+
+{% endblock %}

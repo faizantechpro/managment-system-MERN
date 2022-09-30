@@ -1,0 +1,166 @@
+<div style="
+width:100%;
+font-family:Arial,Sans-serif;
+border:1px Solid #ccc;
+border-width:1px 2px 2px 1px;
+background-color:#fff;
+padding:10px;
+">
+<h4 style="padding:6px 10px;margin:0 0 4px 0;font-family:Arial,Sans-serif;font-size:13px;line-height:1.4;border:1px Solid #d9f2db;background:#d9f2db;color:#222;font-weight:normal">
+    <strong>
+    You have been invited to the following event.
+    </strong>
+</h4>
+
+<div style="padding:2px">
+<h3 style="padding:0 0 6px 0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222">
+    <span>{{ title }}</span>
+</h3>
+
+<table
+  style="display: inline-table"
+  cellpadding="0"
+  cellspacing="0"
+  border="0"
+  summary="Event details"
+>
+  <tbody>
+    <tr>
+      <td
+        style="
+          padding: 0 1em 10px 0;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #888;
+          white-space: nowrap;
+        "
+        valign="top"
+      >
+        <div><i style="font-style: normal">When</i></div>
+      </td>
+      <td
+        style="
+          padding-bottom: 10px;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #222;
+        "
+        valign="top"
+      >
+        {{ date }}
+      </td>
+    </tr>
+
+    <tr>
+      <td
+        style="
+          padding: 0 1em 10px 0;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #888;
+          white-space: nowrap;
+        "
+        valign="top"
+      >
+        <div><i style="font-style: normal">Who</i></div>
+      </td>
+      <td
+        style="
+          padding-bottom: 10px;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #222;
+        "
+        valign="top"
+      >
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+
+            {% for email in emails %}
+            <tr>
+              <td
+                style="
+                  padding-right: 10px;
+                  font-family: Arial, Sans-serif;
+                  font-size: 13px;
+                  color: #222;
+                "
+              >
+                <span style="font-family: Courier New, monospace">•</span>
+              </td>
+              <td
+                style="
+                  padding-right: 10px;
+                  font-family: Arial, Sans-serif;
+                  font-size: 13px;
+                  color: #222;
+                "
+              >
+                <div>
+                  <div style="margin: 0 0 0.3em 0">
+                    <span><span class="notranslate"><a href="mailto:{{ email }}" target="_blank">
+                    {{ email }}
+                    </a></span></span><span></span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td
+        style="
+          padding: 0 1em 10px 0;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #888;
+          white-space: nowrap;
+        "
+        valign="top"
+      >
+        <div><i style="font-style: normal">Note</i></div>
+      </td>
+      <td
+        style="
+          padding-bottom: 10px;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #222;
+        "
+        valign="top"
+      >
+        {{ description }}
+      </td>
+    </tr>
+    <tr>
+      <td
+        style="
+          padding: 0 1em 10px 0;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #888;
+          white-space: nowrap;
+        "
+        valign="top"
+      >
+        <div><i style="font-style: normal">Location</i></div>
+      </td>
+      <td
+        style="
+          padding-bottom: 10px;
+          font-family: Arial, Sans-serif;
+          font-size: 13px;
+          color: #222;
+        "
+        valign="top"
+      >
+        {{ location }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>

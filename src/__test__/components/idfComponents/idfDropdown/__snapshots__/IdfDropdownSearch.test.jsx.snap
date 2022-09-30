@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdfDropdownSearch Snapshot 1`] = `
+<div>
+  <div
+    class="dropdown"
+    id="dropdown-category"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="w-100 dropdown-search false dropdown-toggle btn btn-outline-link"
+      type="button"
+    >
+      Search for Category
+    </button>
+  </div>
+</div>
+`;

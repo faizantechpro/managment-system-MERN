@@ -1,0 +1,121 @@
+.main-bar {
+  position: fixed;
+  z-index: 100;
+  width: calc(100% - 20rem);
+  margin-left: 15rem !important;
+  padding-top: 11px;
+}
+
+.global-search {
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #d6dbeb;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.search-fixed{
+  width: 340px !important;
+}
+
+.global-search:hover {
+  background-color: #f6f7fa;
+}
+
+.modal-backdrop {
+  z-index: 100;
+}
+
+.search-modal .modal-dialog {
+  margin-top: 60px;
+  max-width: 720px;
+}
+
+.search-options {
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.search-options .list-group-item.active {
+  background-color: #e7ebed;
+  color: #3c3f41;
+  border: unset;
+  margin-top: 0;
+  font-weight: bold !important;
+}
+
+.search-options .list-group-item {
+  color: #3c3f41;
+}
+
+.search-options .list-group-item:hover > span.material-icons-outlined{
+  color: #3c3f41;
+  font-weight: bold !important;
+}
+
+.search-input:focus {
+  box-shadow: unset !important;
+}
+
+input.search-input,
+textarea.search-input {
+  max-width: 290px;
+}
+
+#datatableSearch{
+  max-width: 100%;
+}
+input.search-input:hover,
+textarea.search-input {
+  background-color: #f6f7fa;
+}
+
+input.search-hover,
+textarea.search-input {
+  background-color: #f6f7fa;
+}
+
+.search-close {
+  color: #000;
+}
+
+.search-dropdown-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(17, 27, 81, 0.25);
+}
+
+.search-dropdown-menu {
+  position: absolute;
+  inset: 0 auto auto 0;
+  margin: 0;
+  left: 50% !important;
+  right: auto !important;
+  transform: translate(-50%, 45px) !important;
+  width: 720px;
+}
+
+.global-search-dropdown {
+  z-index: 100;
+}
+
+.global-search-item {
+  padding: 12px;
+  color: #3c3f41 !important;
+  font-size: 13px;
+}
+
+.global-search-item .main-icon {
+  margin-top: 2px;
+}
+
+.item-text-secondary {
+  font-size: 12px;
+  font-weight: 500;
+  color: #76797b;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@identifee/lambda-reminder",
+  "version": "1.0.0",
+  "description": "Lambda function to send reminders to users",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "main": "handler.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.1"
+  }
+}

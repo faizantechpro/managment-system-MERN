@@ -1,0 +1,153 @@
+:root{
+  --lostColor: #fe8888;
+  --lostDarkColor: #c1232a;
+  --lostDarkColorHover: #9a1c21;
+  --wonColor: #ade8ce;
+  --wonDarkColor: #5cb85c;
+  --wonDarkColorHover: #1a5a28;
+  --deleteColor: #b9bfce;
+  --deleteDarkColor: darkblue;
+}
+
+.box-deal {
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.column-deal {
+  min-height: 300px;
+}
+
+.pipelines-board {
+  height: 100vh;
+}
+
+.pipeline-board-edit{
+  height: calc(100vh - 150px) !important;
+  box-sizing: border-box;
+}
+
+.pipeline-board-edit-form{
+  height: calc(100vh - 250px) !important;
+  box-sizing: border-box;
+}
+
+.parent-board-header{
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+  border: 1px solid #E5E5E5 !important;
+  border-radius: 8px;
+  height: 75px;
+}
+
+.board-header:not(:last-child):after{
+  content: '';
+  background: url("../../assets/svg/arrow_right.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 73px;
+  width: 10px;
+  top: 0;
+  right: -7px;
+  display: inline-block;
+}
+
+.board-footer{
+  padding-left: 15rem;
+  width: inherit;
+  max-width: inherit;
+  z-index: 50;
+  transition: all 0.3s linear;
+}
+
+.board-footer .board-footer-item{
+  width: 100%;
+  height: 63px;
+  margin-right: 1rem;
+}
+
+.board-footer .board-footer-item:last-child{
+  margin: 0;
+}
+
+.parent-column .col:hover a.add-deal{
+  display: block !important;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.opacity-1{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.board-footer .board-footer-item.won{
+  color: #555;
+  background-color: #f7fdfb;
+  border: 2px dashed var(--wonColor) !important;
+}
+
+.board-footer .board-footer-item.lost{
+  color: #555;
+  background-color: #fff2f3;
+  border: 2px dashed var(--lostColor) !important;
+}
+
+.board-footer .board-footer-item.delete{
+  color: #555;
+  background-color: #f5f8fa;
+  border: 2px dashed var(--deleteColor) !important;
+}
+
+.deal-types{
+  color: #fff !important;
+}
+
+.deal-types.lost{
+  background-color: var(--lostDarkColor) !important;
+}
+
+.deal-types.won,
+.deal-types.hot{
+  background-color: var(--wonDarkColor) !important;
+}
+
+.deal-types.delete{
+  background-color: var(--deleteDarkColor) !important;
+}
+
+.deal-types.cold{
+  background-color: var(--deleteDarkColor) !important;
+}
+
+.btn-danger{
+  background-color: var(--lostDarkColor) !important;
+  border-color: var(--lostDarkColor) !important;
+}
+
+.btn-danger:hover{
+  background-color: var(--lostDarkColorHover) !important;
+  border-color: var(--lostDarkColorHover) !important;
+}
+
+.btn-success{
+  background-color: var(--wonDarkColor) !important;
+  border-color: var(--wonDarkColor) !important;
+}
+
+.btn-success:not(.cursor-default):hover{
+  background-color: var(--wonDarkColorHover) !important;
+  border-color: var(--wonDarkColorHover) !important;
+  color: #fff !important;
+}
+
+.badge-success{
+  background-color: var(--wonDarkColor) !important;
+}

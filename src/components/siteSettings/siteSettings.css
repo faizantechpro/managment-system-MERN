@@ -1,0 +1,33 @@
+.theme-container {
+  display: flex;
+}
+
+.theme {
+  width: 35px;
+  height: 35px;
+  background-color: #a1afb7;
+  display: flex;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.theme-item {
+  width: 100%;
+  cursor: pointer;
+}
+
+.color-picker {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  background-color: #a1afb7;
+  width: 40px;
+  height: 100%;
+}

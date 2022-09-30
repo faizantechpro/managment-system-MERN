@@ -1,0 +1,63 @@
+.fc-toolbar-title {
+  font-size: 1.15rem !important;
+}
+.fc {
+  height: 1210px !important;
+}
+.fc-scrollgrid-section-header {
+  position: sticky;
+  top: 59.5px;
+  z-index: 5;
+  background-color: #fff;
+}
+.fc-header-toolbar {
+  margin: unset !important;
+  padding-bottom: 20px;
+  padding-top: 3px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+}
+
+.fc-header-toolbar button {
+  font-size: 0.875rem !important;
+  color: #000 !important;
+  background-color: transparent !important;
+  border-color: #e7eaf3 !important;
+  text-transform: capitalize !important;
+}
+
+#calendar .fc-agendaWeek-view .fc-today,
+#calendar .fc-agendaDay-view .fc-today {
+  background: red !important;
+}
+.fc-scrollgrid {
+  border-top: unset !important;
+}
+.fc-col-header-cell-cushion {
+  padding: 0.5rem 0.5rem !important;
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  font-weight: 450 !important;
+  color: #545868;
+  cursor: pointer;
+  margin-right: 20px !important;
+}
+.fc-timegrid-slot-label-cushion.fc-scrollgrid-shrink-cushion {
+  font-size: 0.8rem;
+  color: #97a4af;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.fc-event-main-frame {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 0 10px;
+}
+
+.calendar-side {
+  height: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,122 @@
+.tags-input-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 41px;
+  width: 100%;
+  padding: 0 8px;
+  border: 1px solid #e7eaf3;
+  border-radius: 6px;
+}
+
+.tags-input-main .dropdown {
+  width: 100%;
+}
+
+.tags-input-main .dropdown-menu {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.tags-input-main button {
+  border: none;
+  width: 100%;
+  padding: 1%;
+  background-color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.tags-input-main .tags-dropdown {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: none !important;
+}
+
+.tags-input-main button:focus,
+.tags-input-main .tags-dropdown:hover,
+.tags-input-main .tags-dropdown:active {
+  background-color: white;
+}
+
+.tags-input-main input {
+  flex: 1;
+  border: none;
+  height: 33px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.tags-input-main input:focus {
+  outline: transparent;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1.5% 0 0 0;
+}
+
+.tag {
+  width: auto;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 14px;
+  list-style: none;
+  border-radius: 6px;
+  margin: 0 8px 8px 0;
+  color: black;
+  background-color: #e5e5e5;
+}
+
+.tag-primary {
+  background-color: #c8e1ff !important;
+  color: #263db7;
+}
+
+.tag .tag-title {
+  margin-top: 3px;
+}
+
+.tag .tag-close-icon {
+  font-style: normal;
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 8px;
+  color: black;
+  border-radius: 50%;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.tags-input-main .btn-primary:hover {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.tags-input-main .btn-primary:active {
+  box-shadow: none !important;
+}
+
+.tag-alert {
+  border: solid #f08080 2px;
+  cursor: pointer;
+
+  background: #f08080;
+}
+
+.tag-alert:hover {
+  background: #f44336;
+  color: white;
+}

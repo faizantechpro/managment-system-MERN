@@ -1,0 +1,34 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Installing Client deps...
+      - npm install
+      - echo Installing API deps...
+      - cd api && npm install
+      - cd ..
+  build:
+    commands:
+      - echo Building client
+      - cp .env.example .env
+      - npm run build
+      - cd api && npm run build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - .ebextensions/**/*
+    - .platform/**/*
+    - public/**/*
+    - build/**/*
+    - api/dist/**/*
+    - api/node_modules/**/*
+    - api/sequelize/**/*
+    - api/.sequelizerc
+    - api/package.json
+    - package.json
+    - .env
+    - .npmrc
+    - Procfile

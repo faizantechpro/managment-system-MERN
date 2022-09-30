@@ -1,0 +1,434 @@
+:root {
+  --primaryColor: #111b51;
+  --secondaryColor: #092ace;
+  --menuBgColor: #fff;
+  --menuBorderColor: #e7eaf3;
+  --lightBlueColor: rgba(9, 42, 206, 0.1);
+  --lightGreyColor: #A3A1A1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.badge-small {
+  width: 30px !important;
+}
+
+.icon-list-size {
+  font-size: x-large;
+}
+
+.min-heigth-head-card {
+  min-height: 35px !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.product-item-modal {
+  border-radius: 10px;
+}
+
+.product-item-modal.active {
+  cursor: pointer;
+  background: rgba(231, 234, 243, 0.7);
+}
+
+.products-item .product-item {
+  width: 100%;
+}
+
+.products-item h4 {
+  margin-bottom: 5px;
+}
+
+.products-item p {
+  margin-bottom: 0;
+  width: 50%;
+  float: left;
+}
+
+.add-more-btn {
+  width: 47px;
+  height: 47px;
+}
+
+.exceptions-view {
+  margin-top: 15vh;
+}
+
+.exceptions-view h1 {
+  font-size: 150px;
+  color: #092ace;
+}
+
+.exceptions-view h3 {
+  font-size: 48px;
+  color: #111b51;
+  margin-top: -40px;
+}
+
+.exceptions-view p {
+  font-size: 18px;
+  color: #111b51;
+}
+
+.navbar-vertical-fixed {
+  z-index: 90 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /* color: #fff !important; */
+  border-left: none;
+}
+
+.navbar-nav.nav-tabs .active.nav-link {
+  color: var(--secondaryColor) !important;
+  opacity: 1;
+}
+
+.text-primary,
+.rdrInRange,
+.rdrEndEdge, a {
+  color: var(--secondaryColor) !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: var(--secondaryColor) !important;
+}
+
+.hoverLink:hover {
+  color: var(--secondaryColor) !important;
+}
+
+.main-owner div {
+  border-color: #34d058 !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--secondaryColor) !important;
+  border-color: var(--secondaryColor) !important;
+}
+
+.edit-avatar-container {
+  border-color: var(--secondaryColor) !important;
+}
+
+.page-item.active .page-link,
+.bg-primary,
+.edit-avatar-icon {
+  background-color: var(--secondaryColor) !important;
+}
+
+.btn-primary,
+.bg-dark {
+  background-color: var(--secondaryColor) !important;
+  border-color: var(--secondaryColor) !important;
+}
+
+.bg-light{
+  background-color: var(--menuBgColor) !important;
+  border-color: var(--menuBorderColor) !important;
+}
+
+.btn-ghost-primary {
+  background-color: #fff !important;
+  color: var(--secondaryColor) !important;
+}
+
+.btn-ghost-secondary {
+  background-color: transparent !important;
+  border-color: var(--secondaryColor) !important;
+}
+
+.btn-ghost-secondary:hover {
+  background-color: transparent !important;
+  border-color: var(--secondaryColor) !important;
+  color: var(--secondaryColor) !important;
+}
+
+.navbar-dark,
+.navbar-vertical-footer,
+.sidebar-min-height {
+  background-color: var(--menuBgColor) !important;
+  border-color: var(--menuBorderColor) !important;
+}
+
+.fullscreen-spinner {
+  margin-top: 45vh;
+}
+
+.tags-dropdown {
+  background-color: white !important;
+}
+
+.btn-import {
+  background-color: var(--secondaryColor) !important;
+  border-color: var(--secondaryColor) !important;
+  color: #fff !important;
+}
+
+.drop-disabled {
+  background-color: rgba(231, 234, 243, 0.3) !important;
+}
+
+.fs-7{
+  font-size: 13px;
+}
+
+.fs-7.lead{
+  line-height: 26px;
+}
+
+.fs-8{
+  font-size: 12px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-9{
+  font-size: 11px;
+}
+
+.right-sidebar {
+  background-color: #fff;
+  /*
+  */
+  width: 55px;
+  position: relative;
+  /* TODO Top navbar is 99, hence this needs to be adjusted on the fly when is open 
+  because on scroll it overlaps with the navvar and doesnt look right */
+  z-index: 0;
+  top: 0;
+}
+
+.content-with-insights{
+  margin-right: 55px;
+}
+
+.insights-bar{
+  position: fixed;
+  z-index: 95;
+  right: 0;
+  height: 100%;
+  top: 3.75rem;
+}
+
+.right-sidebar .related-lessons .card{
+  border-color: #E5E5E5;
+  border-radius: 0.5rem;
+}
+
+.right-sidebar .related-lessons h4, .right-sidebar .related-lessons a {
+  text-align: left;
+}
+
+.dropdown-search:focus{
+  border-color: rgba(9, 42, 206, 0.4) !important;
+  box-shadow: 0 0 10px rgb(9 42 206 / 10%) !important;
+}
+
+.profile-popover.dropdown.show .popover-link,
+.popover-link:hover {
+  text-decoration: underline !important;
+}
+
+.popover__wrapper {
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  background-color: #fff;
+  width: auto;
+}
+
+.profile-popover.right{
+  right: -300px;
+}
+
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+}
+
+.popover__wrapper:hover .popover__content.lg {
+  min-width: 325px;
+}
+
+.popover__wrapper:hover .popover-link{
+  text-decoration: underline;
+  color: var(--secondaryColor) !important;
+}
+
+.popover__message {
+  text-align: center;
+}
+
+.avatar-label{
+  position: absolute;
+  bottom: -12px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 18px;
+  font-weight: bold;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.avatar-primary-label{
+  background: #27ae60;
+}
+
+.avatar-secondary-label{
+  background: var(--secondaryColor);
+}
+
+.rr-card-width {
+  min-width: 100px;
+}
+
+.navbar-brand-wrapper {
+  background-color: var(--menuBgColor) !important;
+}
+
+.card-lesson-hero{
+  border-top: 4px solid var(--secondaryColor) !important;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.idf-dropdown-item-list .dropdown-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.idf-dropdown-item-list .dropdown-item:hover,
+.idf-dropdown-item-list .dropdown-item:hover *{
+  background-color: var(--secondaryColor);
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.idf-tabs a:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) !important;
+}
+
+.dropdown-center{
+  left: -50% !important;
+  margin-left: -50% !important;
+}
+
+.text-gray-search{
+  color: var(--lightGreyColor);
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.deal-edit-header{
+  min-width: 220px;
+}
+
+.min-w-250{
+  min-width: 250px !important;
+}
+
+.min-h-120{
+  min-height: 120px;
+}
+
+.ck.ck-toolbar,
+.ck.ck-content{
+  border: 1px solid rgba(231, 234, 243, 0.7) !important;
+}
+
+.ck.ck-content{
+  min-height: 200px;
+}
+
+.form-group label,
+.form-label{
+  color: #1e2022;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.error-show-right{
+  top: 6px;
+  right: 6px;
+}
+
+.setting-item{
+  transition: all linear 0.3s;
+}
+
+.setting-item:hover {
+  border-color: var(--secondaryColor);
+}
+
+.setting-item:hover span.text-black{
+  color: var(--secondaryColor) !important;
+}
+
+.custom-switch{
+  transform: scale(1.4);
+}
+
+.active-link{
+  color: #092ace !important;
+}

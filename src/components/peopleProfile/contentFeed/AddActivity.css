@@ -1,0 +1,27 @@
+.dropdowns-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdowns-select > div {
+  width: 49%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.dropdowns-select > div > div {
+  padding: 0% !important;
+}
+
+.btns-confirm-activity {
+  text-align: right;
+}
+
+.section-more-details .form-check {
+  width: 15%;
+  display: inline-block;
+}
+
+.btns-confirm-activity .btn-white {
+  margin-right: 2%;
+}

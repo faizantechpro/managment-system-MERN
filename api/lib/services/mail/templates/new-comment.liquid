@@ -1,0 +1,15 @@
+{% layout "base" %}
+{% block content %}
+
+<p>You have a new comment:</p>
+
+<blockquote>
+<strong class="text-black">{{ first_name }} {{ last_name }}</strong><br/>
+{{ comment }}
+<br/>
+{{ date }}
+<br/>
+<a href="{{ url }}" class="button button-primary">View details</a>
+</blockquote>
+
+{% endblock %}

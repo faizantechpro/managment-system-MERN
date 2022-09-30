@@ -1,0 +1,50 @@
+.menu-labels {
+  max-height: 300px;
+  text-align: center !important;
+  overflow: auto;
+}
+
+.list-labels {
+  padding: 0 !important;
+  max-height: 230px !important;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.list-labels i {
+  color: black;
+}
+
+.list-labels i:hover {
+  color: var(--secondaryColor) !important;
+  transform: scale(1.2);
+}
+
+.btn-disabled {
+  cursor: default !important;
+  opacity: 0.6;
+}
+
+.palette-colors {
+  padding: 2%;
+  display: flex;
+}
+
+.each-palette {
+  display: flex !important;
+  margin: 1%;
+  height: 50px !important;
+  max-width: 50px;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.5%;
+  align-self: center;
+}
+
+.each-palette span {
+  font-size: 1.5rem;
+}
+
+.select-label-footer {
+  display: block !important;
+}

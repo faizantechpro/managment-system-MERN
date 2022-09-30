@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CreateGroupModal Snapshot 1`] = `
+<body
+  class="modal-open"
+>
+  <div />
+  <div
+    style="position: relative; z-index: 1050; display: block;"
+    tabindex="-1"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="modal fade"
+        role="dialog"
+        style="display: block;"
+        tabindex="-1"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered"
+          role="document"
+        >
+          <div
+            class="modal-content"
+          >
+            <div
+              class="modal-header"
+            >
+              <h2
+                class="modal-title"
+              >
+                Add New Group
+              </h2>
+              <button
+                aria-label="Close"
+                class="close"
+                type="button"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ×
+                </span>
+              </button>
+            </div>
+            <div
+              class="modal-body"
+            >
+              <span
+                class="font-size-sm"
+              >
+                Parent Group
+              </span>
+              <input
+                class="mt-2 mb-2 form-control"
+                data-testid="group_name"
+                id="group_name"
+                name="group_name"
+                placeholder="Field name"
+                type="text"
+                value=""
+              />
+              <span
+                class="font-size-sm"
+              >
+                Parent Group
+              </span>
+              <div
+                class="mt-2 dropdown"
+                id="dropdown-assigned_parent"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="w-100 dropdown-search false dropdown-toggle btn btn-outline-link"
+                  type="button"
+                >
+                  Select Parent Group
+                </button>
+              </div>
+            </div>
+            <div
+              class="modal-footer"
+            >
+              <button
+                class="btn btn-white"
+              >
+                Cancel
+              </button>
+              <button
+                class="btn btn-primary"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  Create
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal-backdrop fade"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test CreateGroupModal Snapshot with dropdown menu open 1`] = `
+<body
+  class="modal-open"
+>
+  <div />
+  <div
+    style="position: relative; z-index: 1050; display: block;"
+    tabindex="-1"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="modal fade"
+        role="dialog"
+        style="display: block;"
+        tabindex="-1"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered"
+          role="document"
+        >
+          <div
+            class="modal-content"
+          >
+            <div
+              class="modal-header"
+            >
+              <h2
+                class="modal-title"
+              >
+                Add New Group
+              </h2>
+              <button
+                aria-label="Close"
+                class="close"
+                type="button"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ×
+                </span>
+              </button>
+            </div>
+            <div
+              class="modal-body"
+            >
+              <span
+                class="font-size-sm"
+              >
+                Parent Group
+              </span>
+              <input
+                class="mt-2 mb-2 form-control"
+                data-testid="group_name"
+                id="group_name"
+                name="group_name"
+                placeholder="Field name"
+                type="text"
+                value=""
+              />
+              <span
+                class="font-size-sm"
+              >
+                Parent Group
+              </span>
+              <div
+                class="mt-2 show dropdown"
+                id="dropdown-assigned_parent"
+              >
+                <button
+                  aria-expanded="true"
+                  aria-haspopup="true"
+                  class="w-100 dropdown-search false dropdown-toggle btn btn-outline-link"
+                  type="button"
+                >
+                  Select Parent Group
+                </button>
+                <div
+                  aria-labelledby=""
+                  class="basic-animation border border-1 overflow-auto w-100 dropdown-menu show"
+                  style="position: absolute; top: 0px; left: 0px; opacity: 0; pointer-events: none; margin: 0px;"
+                  x-placement="bottom-start"
+                >
+                  <div
+                    class="col-12"
+                  >
+                    <input
+                      class="form-control"
+                      placeholder="Select Parent Group"
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    class="px-0 dropdown-results pt-2 pl-3 px-3 col-12"
+                  >
+                    <a
+                      class="p-2 item-btn rounded w-100 basic-animation tr-hover cursor-pointer dropdown-item"
+                      data-testid="item-1"
+                      href="#"
+                      id="item-1"
+                      role="button"
+                    >
+                      <div
+                        class="user-avatar-select w-100"
+                      >
+                        <div
+                          class="item-user text-capitalize mx-0 w-100 col"
+                        >
+                          <h5
+                            class="mb-0 w-100"
+                          >
+                            Group 1
+                          </h5>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      class="p-2 item-btn rounded w-100 basic-animation tr-hover cursor-pointer dropdown-item"
+                      data-testid="item-2"
+                      href="#"
+                      id="item-2"
+                      role="button"
+                    >
+                      <div
+                        class="user-avatar-select w-100"
+                      >
+                        <div
+                          class="item-user text-capitalize mx-0 w-100 col"
+                        >
+                          <h5
+                            class="mb-0 w-100"
+                          >
+                            Group 2
+                          </h5>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      class="p-2 item-btn rounded w-100 basic-animation tr-hover cursor-pointer dropdown-item"
+                      data-testid="item-3"
+                      href="#"
+                      id="item-3"
+                      role="button"
+                    >
+                      <div
+                        class="user-avatar-select w-100"
+                      >
+                        <div
+                          class="item-user text-capitalize mx-0 w-100 col"
+                        >
+                          <h5
+                            class="mb-0 w-100"
+                          >
+                            Group 3
+                          </h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal-footer"
+            >
+              <button
+                class="btn btn-white"
+              >
+                Cancel
+              </button>
+              <button
+                class="btn btn-primary"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  Create
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal-backdrop fade"
+      />
+    </div>
+  </div>
+</body>
+`;

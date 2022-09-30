@@ -1,0 +1,31 @@
+{% layout "base" %}
+{% block content %}
+
+<p>New changes to your deal: <a href="{{ url }}">{{ name }}</a></p>
+
+{% for change in updates %}
+<blockquote>
+    <strong class="text-black">
+        {% if types[change.key] %}
+            {{ types[change.key] }}
+        {% else %}
+            {{ change.key }}
+        {% endif %}
+    </strong><br/>
+    {% if change.key == "amount" %}
+        {% if change.previousValue != "" %}<span style="color: #FF4952;">{{ change.previousValue }}</span> ➝ {% endif %}
+        {% if change.currentValue != "" %}<span style="color: #34d058;">{{ change.currentValue }}</span>{% endif %}
+    {% elsif change.key == "deal_type" %}
+        {% if change.previousValue != "" %}<span style="text-transform: uppercase;">{{ change.previousValue }}</span> ➝ {% endif %}
+        {% if change.currentValue != "" %}<span style="text-transform: uppercase;">{{ change.currentValue }}</span>{% endif %}
+    {% else %}
+        {% if change.previousValue != "" %}<span style="color: #000;">{{ change.previousValue }}</span> ➝ {% endif %}
+        {% if change.currentValue != "" %}<span style="color: #000;">{{ change.currentValue }}</span>{% endif %}
+    {% endif %}
+</blockquote>
+{% endfor %}
+<br/>
+
+<a href="{{ url }}" class="button button-primary button-large">Go to Deal</a>
+
+{% endblock %}
